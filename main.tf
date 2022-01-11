@@ -1,3 +1,7 @@
+module "nested-x" {
+  source = "./333"
+}
+
 provider "aws" {
  region = var.region
 }
