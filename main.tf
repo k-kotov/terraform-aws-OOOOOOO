@@ -1,5 +1,5 @@
 module "nested-x" {
-  source = "https://github.com/k-kotov/terraform-aws-OOOOOOO"
+  source = "registry.terraform.io/modules/k-kotov/OOOOOOO/aws/latest"
 }
 
 provider "aws" {
