@@ -30,20 +30,4 @@ resource "aws_instance" "ubuntu" {
     delete = "15m"
   }
 }
-
-
-
-output "sensitive" {
-  sensitive = true
-  value     = "VALUE"
-}
-/*
-resource "aws_instance" "ubuntu1" {
-  count = "${terraform.workspace == "default" ? 5 : 1}"
-
-  # ... other arguments
-}
-*/
-  
-
 */
