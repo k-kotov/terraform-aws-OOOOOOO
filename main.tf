@@ -2,7 +2,7 @@ module "OOOOOOO" {
   source  = "k-kotov/OOOOOOO/aws"
   version = "0.0.1"
 }
-
+/*
 provider "aws" {
  region = var.region
 }
@@ -46,3 +46,4 @@ resource "aws_instance" "ubuntu1" {
 */
   
 
+*/
