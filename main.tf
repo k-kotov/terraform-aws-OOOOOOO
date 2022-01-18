@@ -1,5 +1,6 @@
-module "nested-x" {
-  source = "registry.terraform.io/modules/k-kotov/OOOOOOO/aws/latest"
+module "OOOOOOO" {
+  source  = "k-kotov/OOOOOOO/aws"
+  version = "0.0.1"
 }
 
 provider "aws" {
