@@ -1,6 +1,6 @@
 module "OOOOOOO" {
   source  = "./111"
-  version = "0.0.1"
+  
 }
 /*
 provider "aws" {
