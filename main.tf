@@ -1,5 +1,5 @@
 module "OOOOOOO" {
-  source  = "k-kotov/OOOOOOO/aws"
+  source  = "./111"
   version = "0.0.1"
 }
 /*
