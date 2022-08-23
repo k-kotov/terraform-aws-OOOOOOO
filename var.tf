@@ -43,7 +43,7 @@ variable "subnet" {
 
 variable "re" {
   type    = string
-  default = "xxxhvx1"
+  default = "xxxhvx11"
 }
 
 
