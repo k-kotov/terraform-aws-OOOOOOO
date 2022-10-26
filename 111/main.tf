@@ -13,7 +13,8 @@ data "aws_ami" "ubuntu" {
   }
   owners = ["099720109477"]
 }
-resource "aws_instance" "ubuntu" {
+#resource "aws_instance" "ubuntu"
+resource ""{
   #count = 987
   #ami                         = var.win_ami
   ami           = data.aws_ami.ubuntu.id
